@@ -22,7 +22,7 @@ const Main = () => {
 
   return (
     <div>
-      <div className="navbar">
+      <div className="header">
         <h1 className="title">Pokemons</h1>
 
         <div className="search-bar">

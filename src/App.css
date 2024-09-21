@@ -12,9 +12,9 @@ body {
   background-color: #191919;
 }
 
-/* Navbar */
+/* Header */
 
-.navbar {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,6 +68,35 @@ body {
 }
 .pokemon-name {
   color: #d3c863;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 12px 2%;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .cards-container {
+    padding: 20px 2%;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .pokemon-img {
+    width: 100px;
+    height: 100px;
+  }
+  .pokemon-name {
+    font-size: 1rem;
+  }
 }
